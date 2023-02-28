@@ -1,5 +1,5 @@
 [Unit]
-Description=Dicionário Waiwai
+Description=Dicionário Waiwai REST
 After=network.target
 
 [Service]
@@ -10,3 +10,4 @@ Restart=always
 
 [Install]
 WantedBy=multi-user.target
+
